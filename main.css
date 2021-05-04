@@ -1,0 +1,51 @@
+#popup {
+    width: 700px;
+    height: 500px;
+    background-color: #ccc;
+    border: 1px solid #999;
+    border-radius: 6px;
+    position: fixed;
+    top: 100px;
+    left: calc(50% - 350px);
+    display: none;
+    padding: 15px;
+}
+
+#closePopupBtn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#slider > #prv, #slider > #nxt {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#slide {
+    display: flex;
+    justify-content: center;
+}
+
+.slide-img{
+    display: none;
+}
+
+.preview{
+    margin-top: 50px;
+}
+
+.preview-img{
+    height: 30px;
+}
